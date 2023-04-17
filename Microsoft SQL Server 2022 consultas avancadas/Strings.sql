@@ -1,0 +1,10 @@
+/*
+Coloca em letras minusculas, e letra maiusculas*/
+SELECT NOME, LOWER(NOME) AS NOME_MINUSCULO, UPPER(NOME) AS NOME_MAIUSCULO 
+FROM TABELA_DE_CLIENTES;
+
+/*
+Concatenando informações
+SELECT NOME, CONCAT(ENDERECO_1, ' ', BAIRRO, ' ', CIDADE, ' ', ESTADO, ' - ', CEP) AS ENDERECO_COMPLETO 
+FROM TABELA_DE_CLIENTES;
+*/
